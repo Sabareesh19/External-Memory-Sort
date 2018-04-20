@@ -72,45 +72,7 @@ public class Terasort {
           fwrite.close(); 
      }
 
-    // public static void Filenumber(){
-     //  file_inc++;
-    // }
-
-    /* public static void Threadcount(int number_of_threads, ArrayList<String> line) throws InterruptedException
-     {
-            Thread[] threadid = new Thread[5];
-            ArrayList<String>current_file = null;
-            int tid = 0;
-            if(tid < number_of_threads)
-            {
-               current_file = new ArrayList<String>();
-               if(current_file == null)
-               {
-               System.out.println("No file is present");
-               }
-            }
-               int value = 0;
-            for(int i = 0;i<=0;i++)
-            for (int j = value; j < (line.size()/number_of_threads); j++)
-            {
-                if(j < line.size())
-                {
-                  System.out.println("Cannot be merged");
-                }
-                if (j >= line.size())
-                current_file.add(line.get(j));
-                j++;
-            }
-           int file_inc;
-			//threadid[tid] = new Mergesort1(current_file, directory,file_inc,current_file.size());
-           threadid[tid].start();
-            //file_inc++;
-           Filenumber();
-            for (int i = 0; i < number_of_threads; i++) {
-            	threadid[tid].join();
-            }
-     }*/
-     
+   
      public static void files_merge(int noOfFiles,String outputFile) throws Exception
      {       
     	 
